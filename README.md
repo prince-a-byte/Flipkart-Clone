@@ -1,2 +1,3 @@
-# Js-Learning
-A Code Repo for javascript Learning
+# Flipkart-Clone
+
+This is the First Project making the clone Of Flipkart
