@@ -10,9 +10,13 @@ head , body{
 body{
     background-color: #F1F2F4;
 }
+*:focus{
+    outline: none
+}
 
 .navigationbar{
-    height: 20%;
+    padding: 12px;
+    height: 70px;
     width: 100%;
     background-color: #FFFFFF;
     display: flex;
@@ -21,9 +25,11 @@ body{
 }
 .searchbox{
     /* background-color: aqua; */
-    height: 60%;
+    height: 60px;
     display: flex;
     align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .searchicon{
@@ -34,21 +40,27 @@ body{
     background-color: #F0F5FF;
     height: 40px;
     width: 40px;
-    font-size: 25px;
+    font-size: 20px;
     color: #717478;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 10px 0px;
+    margin: 20px 0px;
 
 }
 
 .textarea input{
     text-align: left;
     height: 40px;
-    margin: 10px 0px;
+    padding: 10px 0px;
+    margin: 0px;
     width: 680px;
     background-color: #F0F5FF;
     border: 1px solid #F0F5FF;
     color: #717478;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-size: 18px;
 }
 .img{
     width: 15%;
@@ -56,4 +68,74 @@ body{
     display: flex;
     align-items: start;
     justify-content: center;
+}
+.login{
+    display: flex;
+    padding-right: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin: 0px 25px;
+}
+.login:hover{
+    background-color: #2A55E5;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.loginico{
+    font-size: 25px;
+    margin: 10px 8px;
+}
+.cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin: 0px 18px;
+    font-weight: 100;
+}
+.cart a{
+    text-decoration: none;
+    color: #212121;
+}
+.carticon{
+    font-size: 25px;
+    margin: 10px 8px;
+
+}
+.becomeaseller{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin: 0px 25px;
+    font-weight: 100;
+}
+.becomeaseller a{
+    text-decoration: none;
+    color: #212121;
+}
+.sellericon{
+    font-size: 25px;
+    margin: 10px 8px;
+}
+.menubar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin: 0px 5px;
+    font-weight: 100;
+    border: 2px solid transparent;
+}
+.menuicon{
+    color: #212121;
+    font-size: 25px;
+    margin: 10px 8px;
+}
+.menubar:hover{
+    background-color: #FAFAFA;
+    border: 2px dotted #EDEDED;
+    border-radius: 10px;
 }
