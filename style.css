@@ -16,22 +16,39 @@ body{
     width: 100%;
     background-color: #FFFFFF;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: ; */
     align-items: center;
 }
 .searchbox{
     /* background-color: aqua; */
     height: 60%;
     display: flex;
+    align-items: center;
 }
+
+.searchicon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #F0F5FF;
+    height: 40px;
+    width: 40px;
+    font-size: 25px;
+    color: #717478;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
 .textarea input{
     text-align: left;
-    margin: 10px 10px;
     height: 40px;
+    margin: 10px 0px;
     width: 680px;
     background-color: #F0F5FF;
     border: 1px solid #F0F5FF;
-    border-radius: 4px;
+    color: #717478;
 }
 .img{
     width: 15%;
